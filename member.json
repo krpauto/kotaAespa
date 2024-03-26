@@ -1,0 +1,465 @@
+[
+  {
+    "lat": 3.597031,
+    "lng": 98.678513,
+    "label": "Medan",
+    "members": [
+        {
+            "name": "Shasha",
+            "fullname": "Aisa Maharani",
+            "generation": 12,
+            "born": "2006-1-31"
+        }
+    ]
+  },
+  {
+    "lat": -6.200000,
+    "lng": 106.816666,
+    "label": "Jakarta",
+    "members": [
+        {
+            "name": "Adel",
+            "fullname": "Reva Videla",
+            "generation": 8,
+            "born": "2006-6-14"
+        },
+        {
+            "name": "Christy",
+            "fullname": "Angelina Christy",
+            "generation": 7,
+            "born": "2005-12-5"
+        }
+        ,
+        {
+            "name": "Ella",
+            "fullname": "Gabriela Abigail",
+            "generation": 10,
+            "born": "2006-8-7"
+        },
+        {
+            "name": "Gracia",
+            "fullname": "Shania Gracia",
+            "generation": 3,
+            "born": "1999-8-31"
+        },
+        {
+            "name": "Lia",
+            "fullname": "Aurellia",
+            "generation": 10,
+            "born": "2002-10-29"
+        },
+        {
+            "name": "Lyn",
+            "fullname": "Jesslyn Elly",
+            "generation": 10,
+            "born": "2001-9-13"
+        },
+        {
+            "name": "Marsha",
+            "fullname": "Marsha Lenathea",
+            "generation": 9,
+            "born": "2006-1-9"
+        },
+        {
+            "name": "Olla",
+            "fullname": "Febriola Sinambela",
+            "generation": 7,
+            "born": "2005-2-26"
+        },
+        {
+            "name": "Alya",
+            "fullname": "Alya Amanda",
+            "generation": 11,
+            "born": "2006-8-26"
+        },
+        {
+            "name": "Cynthia",
+            "fullname": "Cynthia Yaputera",
+            "generation": 11,
+            "born": "2003-11-22"
+        },
+        {
+            "name": "Gendis",
+            "fullname": "Gendis Mayrannisa",
+            "generation": 11,
+            "born": "2010-6-23"
+        },
+        {
+            "name": "Aralie",
+            "fullname": "Abigail Rachel",
+            "generation": 12,
+            "born": "2008-8-6"
+        },
+        {
+            "name": "Delynn",
+            "fullname": "Adeline Wijaya",
+            "generation": 12,
+            "born": "2007-9-1"
+        },
+        {
+            "name": "Fritzy",
+            "fullname": "Fritzy Rosmerian",
+            "generation": 12,
+            "born": "2008-7-28"
+        },
+        {
+            "name": "Kimmy",
+            "fullname": "Victoria Kimberly",
+            "generation": 12,
+            "born": "2010-3-8"
+        },
+        {
+            "name": "Lily",
+            "fullname": "Hillary Abigail",
+            "generation": 12,
+            "born": "2007-10-19"
+        },
+        {
+            "name": "Moreen",
+            "fullname": "Letycia Moreen",
+            "generation": 12,
+            "born": "2010-6-7"
+        },
+        {
+            "name": "Nala",
+            "fullname": "Shabilqis Naila",
+            "generation": 12,
+            "born": "2008-9-1"
+        },
+        {
+            "name": "Oline",
+            "fullname": "Oline Manuel",
+            "generation": 12,
+            "born": "2007-11-3"
+        },
+        {
+            "name": "Trisha",
+            "fullname": "Jazzlyn Trisha",
+            "generation": 12,
+            "born": "2011-2-16"
+        }
+    ]
+  },
+  {
+    "lat": -2.01667,
+    "lng": 101.5,
+    "label": "Kerinci",
+    "members": [
+        {
+            "name": "Indah",
+            "fullname": "Indah Cahya",
+            "generation": 9,
+            "born": "2001-3-10"
+        }
+    ]
+  },
+  {
+    "lat": -2.990934,
+    "lng": 104.756554,
+    "label": "Palembang",
+    "members": [
+        {
+            "name": "Michie",
+            "fullname": "Michelle Alexandra",
+            "generation": 11,
+            "born": "2009-4-22"
+        }
+    ]
+  },
+  {
+    "lat": -6.120000,
+    "lng": 106.150276,
+    "label": "Serang",
+    "members": [
+        {
+            "name": "Lulu",
+            "fullname": "Lulu Salsabila",
+            "generation": 8,
+            "born": "2002-10-23"
+        }
+    ]
+  },
+  {
+    "lat": -6.402905,
+    "lng": 106.778419,
+    "label": "Depok",
+    "members": [
+        {
+            "name": "Anindya",
+            "fullname": "Anindya Ramadhani",
+            "generation": 11,
+            "born": "2005-10-18"
+        }
+    ]
+  },
+  {
+    "lat": -6.595038,
+    "lng": 106.816635,
+    "label": "Bogor",
+    "members": [
+        {
+            "name": "Greesel",
+            "fullname": "Greesella Adhalia",
+            "generation": 11,
+            "born": "2006-1-10"
+        }
+    ]
+  },
+  {
+    "lat": -6.820762,
+    "lng": 107.142960,
+    "label": "Cianjur",
+    "members": [
+        {
+            "name": "Feni",
+            "fullname": "Feni Fitriyanti",
+            "generation": 3,
+            "born": "1999-1-16"
+        }
+    ]
+  },
+  {
+    "lat": -6.905977,
+    "lng": 107.613144,
+    "label": "Bandung",
+    "members": [
+        {
+            "name": "Amanda",
+            "fullname": "Amanda Sukma",
+            "generation": 10,
+            "born": "2004-12-17"
+        },
+        {
+            "name": "Eli",
+            "fullname": "Helisma Putri",
+            "generation": 7,
+            "born": "2000-6-15"
+        },
+        {
+            "name": "Indira",
+            "fullname": "Indira Seruni",
+            "generation": 10,
+            "born": "2004-4-26"
+        },
+        {
+            "name": "Ribka",
+            "fullname": "Ribka Budiman",
+            "generation": 12,
+            "born": "2009-1-13"
+        }
+    ]
+  },
+  {
+    "lat": -6.178306,
+    "lng": 106.631889,
+    "label": "Tangerang",
+    "members": [
+        {
+            "name": "Callie",
+            "fullname": "Callista Alifia",
+            "generation": 10,
+            "born": "2005-8-8"
+        },
+        {
+            "name": "Fiony",
+            "fullname": "Fiony Alveria",
+            "generation": 8,
+            "born": "2002-2-4"
+        },
+        {
+            "name": "Flora",
+            "fullname": "Flora Shafiq",
+            "generation": 8,
+            "born": "2005-4-4"
+        },
+        {
+            "name": "Freya",
+            "fullname": "Freya Jayawardana",
+            "generation": 7,
+            "born": "2006-2-13"
+        },
+        {
+            "name": "Jessi",
+            "fullname": "Jessica Chandra",
+            "generation": 7,
+            "born": "2003-9-23"
+        },
+        {
+            "name": "Oniel",
+            "fullname": "Cornelia Vanisa",
+            "generation": 8,
+            "born": "2002-6-26"
+        },
+        {
+            "name": "Raisha",
+            "fullname": "Raisha Syifa",
+            "generation": 10,
+            "born": "2007-11-11"
+        },
+        {
+            "name": "Zee",
+            "fullname": "Azizi Asadel",
+            "generation": 7,
+            "born": "2004-5-16"
+        },
+        {
+            "name": "Gracie",
+            "fullname": "Grace Octaviani",
+            "generation": 11,
+            "born": "2007-10-18"
+        },
+        {
+            "name": "Elin",
+            "fullname": "Celline Thefani",
+            "generation": 11,
+            "born": "2007-4-9"
+        },
+        {
+            "name": "Jeane",
+            "fullname": "Jeane Victoria",
+            "generation": 11,
+            "born": "2006-6-5"
+        },
+        {
+            "name": "Levi",
+            "fullname": "Michelle Levia",
+            "generation": 12,
+            "born": "2009-1-24"
+        }
+    ]
+  },
+  {
+    "lat": -6.241586,
+    "lng": 106.992416,
+    "label": "Bekasi",
+    "members": [
+        {
+            "name": "Gita",
+            "fullname": "Gita Sekar Andarini",
+            "generation": 6,
+            "born": "2001-6-30"
+        },
+        {
+            "name": "Kathrina",
+            "fullname": "Kathrina Irene",
+            "generation": 9,
+            "born": "2006-7-26"
+        },
+        {
+            "name": "Muthe",
+            "fullname": "Mutiara Azzahra",
+            "generation": 7,
+            "born": "2004-7-12"
+        },
+        {
+            "name": "Erine",
+            "fullname": "Catherina Vallencia",
+            "generation": 12,
+            "born": "2007-8-21"
+        },
+        {
+            "name": "Lana",
+            "fullname": "Aurhel Alana",
+            "generation": 12,
+            "born": "2006-9-14"
+        }
+    ]
+  },
+  {
+    "lat": -6.538681,
+    "lng": 107.449944,
+    "label": "Purwakarta",
+    "members": [
+        {
+            "name": "Daisy",
+            "fullname": "Desy Natalia",
+            "generation": 11,
+            "born": "2005-12-16"
+        },
+        {
+            "name": "Danella",
+            "fullname": "Dena Natalia",
+            "generation": 11,
+            "born": "2005-12-16"
+        }
+    ]
+  },
+  {
+    "lat": -7.797068,
+    "lng": 110.370529,
+    "label": "Yogyakarta",
+    "members": [
+        {
+            "name": "Shani",
+            "fullname": "Shani Indira Natio",
+            "generation": 3,
+            "born": "1998-10-5"
+        }
+    ]
+  },
+  {
+    "lat": -7.55611,
+    "lng": 110.83167,
+    "label": "Surakarta",
+    "members": [
+        {
+            "name": "Regie",
+            "fullname": "Regina Wilian",
+            "generation": 12,
+            "born": "2009-12-10"
+        }
+    ]
+  },
+  {
+    "lat": -7.250445,
+    "lng": 112.768845,
+    "label": "Surabaya",
+    "members": [
+        {
+            "name": "Cathy",
+            "fullname": "Cathleen Nixie",
+            "generation": 11,
+            "born": "2009-5-28"
+        }
+    ]
+  },
+  {
+    "lat": -8.650000,
+    "lng": 115.216667,
+    "label": "Denpasar",
+    "members": [
+        {
+            "name": "Nachia",
+            "fullname": "Nina Tutachia",
+            "generation": 12,
+            "born": "2009-10-16"
+        }
+    ]
+  },
+  {
+    "lat": 32.80589,
+    "lng": 130.69181,
+    "label": "Kumamoto",
+    "members": [
+        {
+            "name": "Nayla",
+            "fullname": "Nayla Suji",
+            "generation": 12,
+            "born": "2007-6-18"
+        }
+    ]
+  },
+  {
+    "lat": -33.865143,
+    "lng": 151.209900,
+    "label": "Sydney",
+    "members": [
+        {
+            "name": "Chelsea",
+            "fullname": "Chelsea Davina",
+            "generation": 11,
+            "born": "2009-12-23"
+        }
+    ]
+  }
+]
