@@ -1,0 +1,125 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kota Asal Member JKT48.">
+    <meta name="keywords" content="JKT48, Kota, Asal">
+    <meta name="author" content="Dandy">
+    <meta property="og:title" content="Kota Asal Member JKT48">
+    <meta property="og:description" content="Kota Asal Member JKT48.">
+    <meta property="og:image" content="https://telegra.ph/file/867f2bfb2b42def59fe57.png">
+    <meta property="og:url" content="https://dandyraka.github.io/kotaJKT48/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@da_n_dy">
+    <meta name="twitter:title" content="Kota Asal Member JKT48">
+    <meta name="twitter:description" content="Kota Asal Member JKT48">
+    <meta name="twitter:image" content="https://telegra.ph/file/867f2bfb2b42def59fe57.png">
+    
+    <title>Kota Asal Member JKT48</title>
+
+    <link rel="icon" type="image/x-icon" href="https://telegra.ph/file/3f9ea7e5d82bc653f8ccc.png">
+	<style>
+		body {
+			margin: 0;
+            font-family: 'Open Sans', sans-serif;
+		}
+        .tooltip {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px;
+            max-width: 220px;
+            z-index: 999;
+            color: white;
+        }
+        a:link {
+            color: #FFB333;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+	</style>
+	<script src="//unpkg.com/d3"></script>
+    <script src="//unpkg.com/polished@3.5.2/dist/polished.js"></script>
+  
+    <script src="//unpkg.com/globe.gl"></script>
+</head>
+<body>
+    <div class="tooltip">
+        <h3>Kota Asal Member JKT48</h3>
+        <p>Data diambil dari <a href="https://twitter.com/jehaes_/status/1753970458444361986" target="_blank">@jehaes_</a></p>
+        <p>Inspired by <a href="https://tjukanovt.github.io/notable-people" target="_blank">Notable People</a></p>
+    </div>
+	<div id="globeViz"></div>
+	<script type="module">
+		import * as THREE from '//unpkg.com/three/build/three.module.js';
+
+		function genSuffix(generation) {
+			const suffixes = ["th", "st", "nd", "rd"];
+			const lastDigit = generation % 10;
+			const suffix = lastDigit <= 3 ? suffixes[lastDigit] : suffixes[0];
+			return generation + suffix;
+		}
+
+        const catColor = d3.scaleOrdinal(d3.schemeCategory10.map(col => polished.transparentize(0.2, col)));
+
+        const getAlt = d => d.members.length * 0.01;
+
+        const getTooltip = d => `
+        <!--<div style="background-color: #3d1ad5; border-radius: 10px;"> -->
+            <div><b>${d.label}</b></div>
+            <ul>
+                ${d.members.sort((a, b) => a.name.localeCompare(b.name)).map(member => `<li>${member.name} - ${genSuffix(member.generation)} Generation</li>`).join('')}
+            </ul>
+        <!-- </div> -->
+        `;
+
+        const world = Globe({ animateIn: false })
+                (document.getElementById('globeViz'))
+                .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+                .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+                .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+                .pointOfView({ lat: -6.200000, lng: 106.816666, altitude: 0.4 }, 4000)
+                .pointLat('lat')
+                .pointLng('lng')
+                .pointAltitude(getAlt)
+                .pointRadius(0.12)
+                .pointColor(d => catColor(d.label))
+                .pointLabel(getTooltip)
+                .labelLat('lat')
+                .labelLng('lng')
+                .labelAltitude(d => getAlt(d) + 1e-6)
+                .labelDotRadius(0.12)
+                .labelDotOrientation(() => 'bottom')
+                .labelColor(d => catColor(d.label))
+                .labelText('label')
+                .labelSize(0.20)
+                .labelResolution(1)
+                .labelLabel(getTooltip)
+
+		// Auto-rotate
+		world.controls().autoRotate = false;
+		world.controls().autoRotateSpeed = 0.35;
+
+		fetch('./members.json').then(r => r.json()).then(members => {
+            world.pointsData(members).labelsData(members);
+		});
+
+	</script>
+</body>
