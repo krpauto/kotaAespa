@@ -1,14 +1,13 @@
 [
   {
-    "lat": 3.597031,
-    "lng": 98.678513,
-    "label": "Medan",
+    "lat": 36.638496160487094,
+    "lng": 127.6965341867895,
+    "label": "Korea",
     "members": [
         {
-            "name": "Shasha",
-            "fullname": "Aisa Maharani",
-            "generation": 12,
-            "born": "2006-1-31"
+            "name": "Karina",
+            "fullname": "Yu Ji Min",
+            "born": "2000-11-04"
         }
     ]
   },
