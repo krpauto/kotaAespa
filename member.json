@@ -22,6 +22,12 @@
             "generation": 8,
             "born": "2006-6-14"
         },
+      {
+    "lat": -6.200000,
+    "lng": 106.816666,
+    "label": "Jakarta",
+    "members": [
+        {
         {
             "name": "Alya",
             "fullname": "Alya Amanda",
